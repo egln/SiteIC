@@ -1,0 +1,163 @@
+
+   .menu-esquerda{
+   color: rgba(1, 29, 1, 0.952);
+   background-color: rgb(119, 128, 120);
+   font-family: 'Alata', sans-serif;
+   position: fixed;
+   box-sizing: border-box;
+   top: 0;
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   height: 100vh;
+   align-items: center;
+   justify-content: space-around;
+   padding: 2rem;
+} 
+
+.cima{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.figure{
+    border-radius: 50%;
+}
+
+.menu-direita{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 0;
+    left: 70%;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+} 
+
+.direita-um{
+    background-color: gray;
+    top: 0;
+    left: 70%;
+    width: 30%;
+    height: 25vh;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 5vh;
+}
+
+.direita-dois{
+    background-color: rgba(128, 128, 128, 0.88);
+    top: 25vh;
+    left: 70%;
+    width: 30%;
+    height: 25vh;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 5vh;
+}
+
+.direita-tres{
+    background-color: rgba(128, 128, 128, 0.76);
+    top: 50;
+    left: 70%;
+    width: 30%;
+    height: 25vh;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 5vh;
+}
+
+.direita-quatro{
+    background-color: rgba(128, 128, 128, 0.64);
+    top: 75vh;
+    left: 70%;
+    width: 30%;
+    height: 25vh;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 5vh;
+}
+
+.menu-central{
+    background-color: rgb(70, 66, 66);
+    font-family: 'Alata', sans-serif;
+    color: rgba(202, 228, 202, 0.986);
+    top: 0;
+    left: 30%;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.texto-central{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 2vh;
+}
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    display: flex;
+}
+
+a:link, a:visited {
+    text-decoration: currentColor;
+    color: rgba(1, 29, 1, 0.952);
+	}
+a:hover {
+	text-decoration: none; 
+    color: rgba(1, 29, 1, 0.952);
+    font-size: 150%;
+	}
+a:active {
+	text-decoration: none
+	}
